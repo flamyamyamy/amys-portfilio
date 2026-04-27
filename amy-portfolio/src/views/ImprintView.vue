@@ -1,48 +1,21 @@
 <template>
-  <AppNavbar />
+  <div class="portfolio">
+    <Navbar />
 
-  <section class="hero imprint-hero">
-    <div class="hero-content">
-      <div class="hero-text centered">
-        <h1 class="glitch">Imprint</h1>
+    <section class="page-section">
+      <h1>Imprint</h1>
 
-        <div class="terminal-line centered">
-          <span class="prompt">$</span>
-          <span>Legal Information & Disclosures</span>
-        </div>
-      </div>
-    </div>
-  </section>
+      <p>Giulia Amy Lyra Yuna Thiex</p>
+      <p>9500 Villach, Austria</p>
 
-  <section class="section">
-    <div class="grid-1">
-      <div class="card">
-        <h3>Legal Disclosure</h3>
-        <p>
-          Giulia Amy Lyra Yuna Thiex<br />
-          9500 Villach<br />
-          Austria
-        </p>
+      <br>
 
-        <br />
-
-        <h3>Contact</h3>
-        <p>
-          E-Mail: amy@flamyamy.com<br />
-          Discord: flamyamy | yunamy.io
-        </p>
-
-        <br />
-
-        <h3>Disclaimer</h3>
-        <p>
-          Yuna Bot is provided "as is" without warranty of any kind.
-        </p>
-      </div>
-    </div>
-  </section>
+      <p>Email: amy@flamyamy.com</p>
+      <p>Discord: flamyamy | yunamy.io</p>
+    </section>
+  </div>
 </template>
 
 <script setup>
-import AppNavbar from '../components/layout/AppNavbar.vue'
+import Navbar from '../components/Navbar.vue'
 </script>
