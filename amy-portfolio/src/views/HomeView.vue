@@ -31,14 +31,23 @@ import amyImage from '../assets/images/amy.jpg'
         </p>
 
         <div class="hero-actions">
-          <a href="#projects" class="btn btn-primary">Projects</a>
-          <a href="https://github.com/flamyamyamy" target="_blank" class="btn btn-secondary">GitHub</a>
+          <router-link :to="{ path: '/', hash: '#projects' }" class="btn btn-primary">
+            Projects
+          </router-link>
+
+          <a
+            href="https://github.com/flamyamyamy"
+            target="_blank"
+            class="btn btn-secondary"
+          >
+            GitHub
+          </a>
         </div>
       </div>
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="skills">
     <h2 class="section-title">Skills</h2>
 
     <div class="skills-grid">
@@ -87,17 +96,17 @@ import amyImage from '../assets/images/amy.jpg'
     </div>
   </section>
 
-  <section class="section">
+  <section class="section" id="experience">
     <h2 class="section-title">Experience</h2>
 
     <div class="timeline">
       <div class="timeline-item">
-        <span>2020</span>
+        <span>2024</span>
         <p>Community Architect / Developer</p>
       </div>
 
       <div class="timeline-item">
-        <span>2026</span>
+        <span>2025</span>
         <p>Lead Developer of Yuna Bot</p>
       </div>
 

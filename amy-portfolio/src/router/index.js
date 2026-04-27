@@ -10,7 +10,18 @@ const router = createRouter({
     { path: '/', component: HomeView },
     { path: '/about', component: AboutView },
     { path: '/imprint', component: ImprintView }
-  ]
+  ],
+
+  scrollBehavior(to) {
+    if (to.hash) {
+      return {
+        el: to.hash,
+        behavior: 'smooth'
+      }
+    }
+
+    return { top: 0 }
+  }
 })
 
 export default router
