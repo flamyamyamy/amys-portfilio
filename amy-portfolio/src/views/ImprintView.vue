@@ -1,21 +1,48 @@
 <template>
-  <div class="portfolio">
-    <Navbar />
+  <section class="page-hero">
+    <div class="page-hero-content">
+      <h1 class="page-title">Imprint</h1>
 
-    <section class="page-section">
-      <h1>Imprint</h1>
+      <div class="terminal-line centered">
+        <span class="prompt">$</span>
+        <span>Legal Information & Disclosures</span>
+      </div>
+    </div>
+  </section>
 
-      <p>Giulia Amy Lyra Yuna Thiex</p>
-      <p>9500 Villach, Austria</p>
+  <section class="section">
+    <div class="content-card">
+      <h3>Legal Disclosure</h3>
+      <p>
+        Giulia Amy Lyra Yuna Thiex<br>
+        9500 Villach<br>
+        Austria
+      </p>
 
-      <br>
+      <h3>Contact</h3>
+      <p>
+        E-Mail: amy@flamyamy.com<br>
+        Discord: flamyamy | yunamy.io<br>
+        Phone: +43 690 10678516
+      </p>
 
-      <p>Email: amy@flamyamy.com</p>
-      <p>Discord: flamyamy | yunamy.io</p>
-    </section>
-  </div>
+      <h3>Service Disclaimer</h3>
+      <p>
+        Yuna Bot is provided "as is" without warranty of any kind,
+        express or implied.
+      </p>
+
+      <h3>Data Processing</h3>
+      <p>
+        Yuna Bot may process and temporarily store technical and
+        service-related data required for operation.
+      </p>
+
+      <h3>External Links Liability</h3>
+      <p>
+        The operators of linked external pages are solely responsible
+        for their content.
+      </p>
+    </div>
+  </section>
 </template>
-
-<script setup>
-import Navbar from '../components/Navbar.vue'
-</script>

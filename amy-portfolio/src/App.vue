@@ -5,7 +5,6 @@ import AppNavbar from './components/Navbar.vue'
 <template>
   <div class="app-shell">
     <AppNavbar />
-
     <main>
       <router-view />
     </main>

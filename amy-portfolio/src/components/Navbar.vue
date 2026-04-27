@@ -16,7 +16,11 @@
 
       <router-link to="/imprint">Imprint</router-link>
 
-      <a href="https://github.com/flamyamyamy" target="_blank" rel="noopener">
+      <a
+        href="https://github.com/flamyamyamy"
+        target="_blank"
+        rel="noopener"
+      >
         GitHub
       </a>
     </div>
