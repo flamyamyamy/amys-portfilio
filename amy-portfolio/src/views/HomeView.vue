@@ -111,22 +111,35 @@ import amyImage from '../assets/images/amy.jpg'
       <div class="timeline">
         <div class="timeline-item">
           <span>2020</span>
-          <p>Entered Community Management & Moderation Leadership</p>
+    <p>
+  Entered community management and moderation leadership,
+  overseeing staff structures, workflows, and moderation systems.
+</p>
         </div>
 
         <div class="timeline-item">
           <span>2024</span>
-          <p>Founded Investment Group / Entrepreneurial Operations</p>
+<p>
+  Founded investment-focused entrepreneurial operations,
+  managing strategic growth initiatives and business development.
+</p>
         </div>
 
         <div class="timeline-item">
           <span>2026</span>
-          <p>Lead Developer of Yuna Bot</p>
+          <p>
+  Lead Developer of Yuna Bot, overseeing architecture,
+  backend systems, and long-term platform scalability.
+</p>
         </div>
 
         <div class="timeline-item">
           <span>2026</span>
-          <p>Began Legal Studies</p>
+          <p>
+  Commenced Legal Studies specializing in European Union Law,
+  Austrian Law, German Law, U.S. Legal Systems,
+  and UK/Common Law fundamentals.
+</p>
         </div>
       </div>
     </section>
