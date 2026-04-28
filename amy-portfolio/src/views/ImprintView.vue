@@ -3,8 +3,8 @@
     <section class="section">
       <h1 class="section-title">Imprint</h1>
 
-      <div class="info-grid">
-        <div class="content-card">
+      <div class="imprint-card">
+        <div class="imprint-block">
           <h3>Information pursuant to § 5 ECG</h3>
           <p>
             Giulia Amy Lyra Yuna Thiex<br />
@@ -13,7 +13,7 @@
           </p>
         </div>
 
-        <div class="content-card">
+        <div class="imprint-block">
           <h3>Contact</h3>
           <p>
             E-Mail: amy@flamyamy.com<br />
@@ -22,16 +22,14 @@
           </p>
         </div>
 
-        <div class="content-card">
+        <div class="imprint-block">
           <h3>Media Owner pursuant to § 24 MedienG</h3>
           <p>
-            Giulia Amy Lyra Yuna Thiex<br />
-            9500 Villach<br />
-            Austria
+            Giulia Amy Lyra Yuna Thiex
           </p>
         </div>
 
-        <div class="content-card">
+        <div class="imprint-block">
           <h3>Business Purpose</h3>
           <p>
             Provision and operation of digital online services,
@@ -39,16 +37,16 @@
           </p>
         </div>
 
-        <div class="content-card">
+        <div class="imprint-block">
           <h3>Liability for Content</h3>
           <p>
-            Despite careful content control, no liability is assumed
+            Despite careful control of content, no liability is assumed
             for the accuracy, completeness, or timeliness of the
-            information provided on this website.
+            information provided.
           </p>
         </div>
 
-        <div class="content-card">
+        <div class="imprint-block">
           <h3>Liability for Links</h3>
           <p>
             Operators of linked external websites are solely
@@ -56,12 +54,11 @@
           </p>
         </div>
 
-        <div class="content-card">
+        <div class="imprint-block">
           <h3>Copyright Notice</h3>
           <p>
             All content published on this website is subject to
-            applicable copyright laws. Any use requires prior
-            written consent unless otherwise permitted by law.
+            applicable copyright laws.
           </p>
         </div>
       </div>
