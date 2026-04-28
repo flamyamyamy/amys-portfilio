@@ -5,7 +5,7 @@
 
       <div class="info-grid">
         <div class="content-card">
-          <h3>Legal Disclosure</h3>
+          <h3>Information pursuant to § 5 ECG</h3>
           <p>
             Giulia Amy Lyra Yuna Thiex<br />
             9500 Villach<br />
@@ -23,25 +23,45 @@
         </div>
 
         <div class="content-card">
-          <h3>Service Disclaimer</h3>
+          <h3>Media Owner pursuant to § 24 MedienG</h3>
           <p>
-            Yuna Bot is provided "as is" without warranty of any kind.
+            Giulia Amy Lyra Yuna Thiex<br />
+            9500 Villach<br />
+            Austria
           </p>
         </div>
 
         <div class="content-card">
-          <h3>Data Processing</h3>
+          <h3>Business Purpose</h3>
           <p>
-            Yuna Bot may process technical and service-related data
-            required for operation.
+            Provision and operation of digital online services,
+            software solutions, and web-based content.
           </p>
         </div>
 
         <div class="content-card">
-          <h3>External Links Liability</h3>
+          <h3>Liability for Content</h3>
           <p>
-            Operators of linked external pages are solely responsible
-            for their content.
+            Despite careful content control, no liability is assumed
+            for the accuracy, completeness, or timeliness of the
+            information provided on this website.
+          </p>
+        </div>
+
+        <div class="content-card">
+          <h3>Liability for Links</h3>
+          <p>
+            Operators of linked external websites are solely
+            responsible for their content.
+          </p>
+        </div>
+
+        <div class="content-card">
+          <h3>Copyright Notice</h3>
+          <p>
+            All content published on this website is subject to
+            applicable copyright laws. Any use requires prior
+            written consent unless otherwise permitted by law.
           </p>
         </div>
       </div>
