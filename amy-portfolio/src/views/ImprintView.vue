@@ -3,7 +3,7 @@
     <section class="section">
       <h1 class="section-title">Imprint</h1>
 
-      <div class="about-grid">
+      <div class="info-grid">
         <div class="content-card">
           <h3>Legal Disclosure</h3>
           <p>
@@ -37,7 +37,7 @@
           </p>
         </div>
 
-        <div class="content-card about-full">
+        <div class="content-card">
           <h3>External Links Liability</h3>
           <p>
             Operators of linked external pages are solely responsible

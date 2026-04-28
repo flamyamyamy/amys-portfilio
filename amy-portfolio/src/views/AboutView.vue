@@ -3,7 +3,7 @@
     <section class="section">
       <h1 class="section-title">About Me</h1>
 
-      <div class="about-grid">
+      <div class="info-grid">
         <div class="content-card">
           <h3>Who I Am</h3>
           <p>
@@ -36,7 +36,7 @@
           </p>
         </div>
 
-        <div class="content-card about-full">
+        <div class="content-card">
           <h3>Beyond Tech</h3>
           <p>
             Outside programming I enjoy cooking, fitness,
