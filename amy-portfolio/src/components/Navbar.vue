@@ -2,11 +2,17 @@
 import { ref } from 'vue'
 
 const menuOpen = ref(false)
+
+const closeMenu = () => {
+  menuOpen.value = false
+}
 </script>
 
 <template>
   <nav class="navbar">
-    <router-link to="/" class="logo">flamyamy</router-link>
+    <router-link to="/" class="logo" @click="closeMenu">
+      flamyamy
+    </router-link>
 
     <button
       class="menu-toggle"
@@ -17,27 +23,36 @@ const menuOpen = ref(false)
     </button>
 
     <div class="nav-links" :class="{ open: menuOpen }">
-      <router-link to="/" @click="menuOpen = false">Home</router-link>
+      <router-link to="/" @click="closeMenu">
+        Home
+      </router-link>
 
-      <router-link to="/about" @click="menuOpen = false">
+      <router-link to="/about" @click="closeMenu">
         About
       </router-link>
 
       <router-link
         :to="{ path: '/', hash: '#skills' }"
-        @click="menuOpen = false"
+        @click="closeMenu"
       >
         Skills
       </router-link>
 
       <router-link
         :to="{ path: '/', hash: '#projects' }"
-        @click="menuOpen = false"
+        @click="closeMenu"
       >
         Projects
       </router-link>
 
-      <router-link to="/imprint" @click="menuOpen = false">
+      <router-link
+        :to="{ path: '/', hash: '#experience' }"
+        @click="closeMenu"
+      >
+        Experience
+      </router-link>
+
+      <router-link to="/imprint" @click="closeMenu">
         Imprint
       </router-link>
 
@@ -45,10 +60,13 @@ const menuOpen = ref(false)
         href="https://github.com/flamyamyamy"
         target="_blank"
         rel="noopener"
-        @click="menuOpen = false"
+        class="nav-github"
+        @click="closeMenu"
       >
-        GitHub
+        GitHub ↗
       </a>
     </div>
   </nav>
+
+  <router-view />
 </template>
