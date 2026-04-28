@@ -3,9 +3,9 @@
     <section class="section">
       <h1 class="section-title">Imprint</h1>
 
-      <div class="info-grid">
-        <div class="content-card">
-          <h3>Legal Disclosure</h3>
+      <div class="imprint-card">
+        <div class="imprint-block">
+          <h3>Information pursuant to § 5 ECG</h3>
           <p>
             Giulia Amy Lyra Yuna Thiex<br />
             9500 Villach<br />
@@ -13,7 +13,7 @@
           </p>
         </div>
 
-        <div class="content-card">
+        <div class="imprint-block">
           <h3>Contact</h3>
           <p>
             E-Mail: amy@flamyamy.com<br />
@@ -22,26 +22,43 @@
           </p>
         </div>
 
-        <div class="content-card">
-          <h3>Service Disclaimer</h3>
+        <div class="imprint-block">
+          <h3>Media Owner pursuant to § 24 MedienG</h3>
           <p>
-            Yuna Bot is provided "as is" without warranty of any kind.
+            Giulia Amy Lyra Yuna Thiex
           </p>
         </div>
 
-        <div class="content-card">
-          <h3>Data Processing</h3>
+        <div class="imprint-block">
+          <h3>Business Purpose</h3>
           <p>
-            Yuna Bot may process technical and service-related data
-            required for operation.
+            Provision and operation of digital online services,
+            software solutions, and web-based content.
           </p>
         </div>
 
-        <div class="content-card">
-          <h3>External Links Liability</h3>
+        <div class="imprint-block">
+          <h3>Liability for Content</h3>
           <p>
-            Operators of linked external pages are solely responsible
-            for their content.
+            Despite careful control of content, no liability is assumed
+            for the accuracy, completeness, or timeliness of the
+            information provided.
+          </p>
+        </div>
+
+        <div class="imprint-block">
+          <h3>Liability for Links</h3>
+          <p>
+            Operators of linked external websites are solely
+            responsible for their content.
+          </p>
+        </div>
+
+        <div class="imprint-block">
+          <h3>Copyright Notice</h3>
+          <p>
+            All content published on this website is subject to
+            applicable copyright laws.
           </p>
         </div>
       </div>

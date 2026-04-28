@@ -290,6 +290,46 @@ img {
   font-weight: 700;
 }
 
+.imprint-card {
+  max-width: 950px;
+  margin: 0 auto;
+  padding: 3rem;
+  border-radius: 28px;
+  background: rgba(255, 255, 255, 0.035);
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  backdrop-filter: blur(18px);
+  box-shadow:
+    0 0 40px rgba(147, 51, 234, 0.12),
+    0 20px 60px rgba(0, 0, 0, 0.35);
+}
+
+.imprint-block {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.imprint-block:first-child {
+  padding-top: 0;
+}
+
+.imprint-block:last-child {
+  border-bottom: none;
+  padding-bottom: 0;
+}
+
+.imprint-block h3 {
+  margin: 0 0 0.75rem;
+  color: var(--purple-light);
+  font-size: 1.1rem;
+}
+
+.imprint-block p {
+  margin: 0;
+  color: var(--text-dim);
+  line-height: 1.9;
+  font-size: 0.98rem;
+}
+
 section {
   animation: fadeUp 0.8s ease;
 }
@@ -315,6 +355,10 @@ section {
 
   .hero-actions {
     justify-content: center;
+  }
+
+  .imprint-card {
+    padding: 2rem;
   }
 }
 
@@ -358,5 +402,14 @@ section {
 
   .btn {
     width: 100%;
+  }
+
+  .section-title {
+    font-size: 2.2rem;
+  }
+
+  .imprint-card {
+    padding: 1.5rem;
+    border-radius: 22px;
   }
 }
