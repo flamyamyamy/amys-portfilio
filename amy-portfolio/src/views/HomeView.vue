@@ -15,8 +15,7 @@ import amyImage from '../assets/images/amy.jpg'
           <span class="status-badge">● Available for Projects</span>
 
           <h1 class="hero-title">
-            Building Premium <br />
-            Digital Systems
+            Amy <br />
           </h1>
 
           <p class="hero-subtitle">
