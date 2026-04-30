@@ -1,10 +1,13 @@
 <template>
-  <main>
-    <section class="section">
+  <main class="page-container">
+    <section class="section section-narrow" v-reveal>
       <h1 class="section-title">Resume</h1>
+      <p class="section-subtitle">
+        Professional and academic milestones.
+      </p>
 
       <div class="timeline">
-        <div class="timeline-item">
+        <div class="timeline-item" v-reveal>
           <span>2026 – Present</span>
           <h3>Legal Studies</h3>
           <p>
@@ -13,16 +16,16 @@
           </p>
         </div>
 
-        <div class="timeline-item">
+        <div class="timeline-item" v-reveal>
           <span>2026 – Present</span>
           <h3>Lead Developer – Yuna Bot</h3>
           <p>
-            Responsible for software architecture, backend systems,
+            Responsible for architecture, backend systems,
             infrastructure planning, and scalability.
           </p>
         </div>
 
-        <div class="timeline-item">
+        <div class="timeline-item" v-reveal>
           <span>2024 – Present</span>
           <h3>Entrepreneurial Operations</h3>
           <p>
@@ -31,7 +34,7 @@
           </p>
         </div>
 
-        <div class="timeline-item">
+        <div class="timeline-item" v-reveal>
           <span>2020 – Present</span>
           <h3>Community Leadership</h3>
           <p>
@@ -40,7 +43,6 @@
           </p>
         </div>
       </div>
-
     </section>
   </main>
 </template>

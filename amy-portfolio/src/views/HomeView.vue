@@ -1,13 +1,28 @@
 <script setup>
+import { onMounted } from 'vue'
 import TypedTerminal from '../components/effects/TypedTerminal.vue'
 import amyImage from '../assets/images/amy.jpg'
+
+onMounted(() => {
+  const hero = document.querySelector('.hero-parallax')
+
+  window.addEventListener('scroll', () => {
+    if (!hero) return
+    const offset = window.scrollY * 0.25
+    hero.style.transform = `translateY(${offset}px)`
+  })
+})
 </script>
 
 <template>
   <main class="page-container">
-    <section class="hero">
+    <section class="hero" v-reveal>
       <div class="hero-content">
-        <img :src="amyImage" class="hero-image" alt="Amy" />
+        <img
+          :src="amyImage"
+          class="hero-image hero-parallax"
+          alt="Amy"
+        />
 
         <div>
           <span class="status-badge">● Available for Projects</span>
@@ -26,7 +41,9 @@ import amyImage from '../assets/images/amy.jpg'
           </p>
 
           <div class="hero-actions">
-            <a href="#projects" class="btn btn-primary">View Projects</a>
+            <a href="#projects" class="btn btn-primary">
+              View Projects
+            </a>
 
             <a
               href="https://github.com/flamyamyamy"
@@ -42,4 +59,3 @@ import amyImage from '../assets/images/amy.jpg'
     </section>
   </main>
 </template>
-
