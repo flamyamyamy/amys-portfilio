@@ -1,9 +1,9 @@
 <template>
   <main class="page-container">
-    <section class="section section-narrow" v-reveal>
-      <h1 class="section-title">Imprint</h1>
+    <section class="section section-narrow">
+      <h1 class="section-title reveal">Imprint</h1>
 
-      <div class="imprint-card" v-reveal>
+      <div class="imprint-card reveal">
         <div class="imprint-block">
           <h3>Information pursuant to § 5 ECG</h3>
           <p>
@@ -17,14 +17,15 @@
           <h3>Contact</h3>
           <p>
             E-Mail: amy@flamyamy.com<br />
-            Discord: flamyamy | yunamy.io<br />
-            Phone: +43 690 10678516
+            Discord: flamyamy | yunamy.io
           </p>
         </div>
 
         <div class="imprint-block">
           <h3>Media Owner</h3>
-          <p>Giulia Amy Lyra Yuna Thiex</p>
+          <p>
+            Giulia Amy Lyra Yuna Thiex
+          </p>
         </div>
       </div>
     </section>
