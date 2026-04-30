@@ -1,7 +1,8 @@
 <template>
-  <main>
-    <section class="section">
+  <main class="page-container">
+    <section class="section section-narrow">
       <h1 class="section-title">Imprint</h1>
+      <p class="section-subtitle">Legal information and contact details.</p>
 
       <div class="imprint-card">
         <div class="imprint-block">
@@ -24,42 +25,7 @@
 
         <div class="imprint-block">
           <h3>Media Owner pursuant to § 24 MedienG</h3>
-          <p>
-            Giulia Amy Lyra Yuna Thiex
-          </p>
-        </div>
-
-        <div class="imprint-block">
-          <h3>Business Purpose</h3>
-          <p>
-            Provision and operation of digital online services,
-            software solutions, and web-based content.
-          </p>
-        </div>
-
-        <div class="imprint-block">
-          <h3>Liability for Content</h3>
-          <p>
-            Despite careful control of content, no liability is assumed
-            for the accuracy, completeness, or timeliness of the
-            information provided.
-          </p>
-        </div>
-
-        <div class="imprint-block">
-          <h3>Liability for Links</h3>
-          <p>
-            Operators of linked external websites are solely
-            responsible for their content.
-          </p>
-        </div>
-
-        <div class="imprint-block">
-          <h3>Copyright Notice</h3>
-          <p>
-            All content published on this website is subject to
-            applicable copyright laws.
-          </p>
+          <p>Giulia Amy Lyra Yuna Thiex</p>
         </div>
       </div>
     </section>

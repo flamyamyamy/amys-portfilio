@@ -1,7 +1,10 @@
 <template>
-  <main>
-    <section class="section">
+  <main class="page-container">
+    <section class="section section-narrow">
       <h1 class="section-title">About Me</h1>
+      <p class="section-subtitle">
+        Background, technical focus, and professional approach.
+      </p>
 
       <div class="info-grid">
         <div class="content-card">
@@ -15,8 +18,8 @@
         <div class="content-card">
           <h3>Technical Focus</h3>
           <p>
-            Specialized in Java, JavaScript, Discord bots, backend systems,
-            automation, and stock market analytics tooling.
+            Specialized in Java, JavaScript, Discord bots,
+            backend systems, automation, and analytics tooling.
           </p>
         </div>
 
@@ -25,22 +28,6 @@
           <p>
             Experienced in moderation leadership, staff management,
             scalable workflows and online community architecture.
-          </p>
-        </div>
-
-        <div class="content-card">
-          <h3>My Approach</h3>
-          <p>
-            Combining legal studies, structured thinking and engineering
-            principles to build highly maintainable software systems.
-          </p>
-        </div>
-
-        <div class="content-card">
-          <h3>Beyond Tech</h3>
-          <p>
-            Outside programming I enjoy cooking, fitness,
-            motorcycles and traveling.
           </p>
         </div>
       </div>
