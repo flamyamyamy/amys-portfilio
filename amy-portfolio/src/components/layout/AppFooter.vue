@@ -17,7 +17,7 @@
       <div class="footer-socials">
         <a href="https://github.com/flamyamyamy" target="_blank" rel="noopener">GitHub</a>
         <a href="mailto:amy@flamyamy.com">Email</a>
-        <a href="https://discord.com" target="_blank" rel="noopener">Discord</a>
+        <a href="https://discord.gg/CDYQJv6UmX" target="_blank" rel="noopener">Discord</a>
       </div>
     </div>
 
