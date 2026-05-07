@@ -10,7 +10,7 @@
         <div class="project-card tilt-card reveal">
           <h3>Yuna Bot</h3>
           <p><strong>Category:</strong> Discord Infrastructure</p>
-          <p><strong>Stack:</strong> Java, PostgreSQL, REST APIs</p>
+          <p><strong>Stack:</strong> JavaScript, PostgreSQL, REST APIs</p>
           <p>
             Enterprise-grade moderation and automation platform built
             for scalable Discord community management with modular architecture
