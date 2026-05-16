@@ -13,14 +13,6 @@
           </p>
         </div>
 
-        <div class="timeline-item tilt-card reveal">
-          <span>2026 – Present</span>
-          <h3>Lead Developer – Yuna Bot</h3>
-          <p>
-            Responsible for software architecture, backend systems,
-            infrastructure planning, and long-term scalability.
-          </p>
-        </div>
 
         <div class="timeline-item tilt-card reveal">
           <span>2024 – Present</span>
